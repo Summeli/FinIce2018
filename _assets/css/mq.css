@@ -1,0 +1,155 @@
+
+@media only screen and (max-width: 775px) {
+/* test down to 720 */
+
+.column.parts-5 {
+	width: 19%;
+}
+
+.column.parts-5+.parts-5 {
+	margin-left: 8% !important;
+}
+
+.column.parts-5:nth-child(4n+1) {
+	margin-left: 0 !important;
+}
+
+.column.parts-5:nth-child(1n+5) {
+	margin-top: 60px;
+}
+
+
+#burger-menu {
+	display: block;
+}
+
+#navi {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #332f30 !important;
+	padding: 0;
+	font-size: 2.3077rem;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1;
+	z-index: 9999;
+	-webkit-transform: none !important;
+	-ms-transform: none !important;
+	transform: none !important;
+}
+
+#navi>div {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	right: 20px;
+	padding: 70px 0 0;
+}
+
+#navi>div>a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+}
+
+#navi>div>a+a {
+	margin: 2vh 0 0;
+}
+
+#navi>div>a:after {
+	display: none;
+}
+
+#navi #some-links {
+	top: 0 !important;
+	right: 50% !important;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+}
+
+#navi #some-links a {
+	border-radius: 50%;
+	background: rgba(255,255,255,0.75);
+	padding: 2px;
+}
+
+}
+
+
+@media only screen and (max-width: 667px) {
+/* test down to 568 */
+
+body .ce-block .column {
+	display: block;
+	width: 100% !important;
+	text-align: center;
+}
+
+body .ce-block .column+.column {
+	margin: 40px 0 0 0 !important;
+}
+
+body .ce-text-image.ce-fullwidth-image .wide-image {
+	position: static;
+	width: calc(100% + 20px);
+	min-height: 250px;
+	padding-top: 50%;
+	margin-left: -10px;
+}
+
+
+.hugetext { font-size: 1.9231rem; }
+
+
+#sect-liput {
+	background-size: 135% auto;
+}
+
+.ticket-text {
+	min-height: 0 !important;
+}
+
+
+#mapframe-overlay .button {
+	width: 85%;
+}
+
+
+.logolist {
+	width: 90%;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.logolist li {
+	display: block;
+	width: 100% !important;
+	margin: 0;
+}
+
+.logolist li+li {
+	margin: 25px 0 0;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+/* if needed */
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+/* down to 320 */
+
+.hugetext { font-size: 1.6154rem; }
+
+}
+
