@@ -747,6 +747,19 @@ blockquote {
 	height: 100%;
 }
 
+.videowrapper {
+  overflow: hidden;
+}
+
+.videohelper {
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+.videocontainer {
+  float: left;
+}
 
 span.oe_displaynone { display: none !important; }
 
