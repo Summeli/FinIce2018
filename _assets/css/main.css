@@ -95,7 +95,9 @@ ol {
 	margin: 0;
 }
 
-
+h2 {
+	margin: 0px 0px 25px 0px;	
+}
 html {
 	box-sizing: border-box;
 	font: 400 81.25%/1.9231 'Open Sans', Arial, sans-serif;
@@ -259,7 +261,7 @@ blockquote {
 }
 
 .column-row+.column-row {
-	margin-top: 3em;
+	margin-top: 1.5em;
 }
 
 
@@ -331,14 +333,14 @@ blockquote {
 
 
 .ce-block {
-	padding: 35px 0;
+	padding: 25px 0;
 }
 
 .ce-block>.wrapper {
 }
 
 .ce-block:not(.ce-bgcolor)+.ce-block:not(.ce-bgcolor) {
-	padding-top: 75px;
+	padding-top: 45px;
 }
 
 .ce-block.ce-bgimage {
@@ -489,7 +491,7 @@ blockquote {
 	font-size: 1.0769rem;
 	font-weight: 700;
 	text-align: center;
-	text-shadow: rgba(0,0,0,0.2) 0 1px 0;
+	text-shadow: rgba(0, 0, 0, 0.32) 2px 2px 0;
 	line-height: 2.5;
 }
 
@@ -589,7 +591,7 @@ blockquote {
 #burger-menu {
 	display: none;
 	position: fixed;
-	right: 15px;
+	left: 15px;
 	top: 15px;
 	width: 45px;
 	height: 40px;
@@ -731,11 +733,16 @@ blockquote {
 	text-indent: -9999px;
 	vertical-align: top;
 	overflow: hidden;
+	margin: 25px 0 25px 0;
 }
 
 .logolist.large li {
 	width: 180px;
 	height: 135px;
+
+}
+.logolist.small li {
+	width: 180px;
 }
 
 .logolist li+li {
@@ -747,6 +754,23 @@ blockquote {
 	height: 100%;
 }
 
+.videowrapper {
+  overflow: hidden;
+}
+
+.videohelper {
+  width: 400px;
+  height: 100%;
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.videocontainer {
+  float: left;
+  position: relative;
+  left: 15%;
+}
 
 span.oe_displaynone { display: none !important; }
 
