@@ -774,6 +774,40 @@ blockquote {
 
 span.oe_displaynone { display: none !important; }
 
+table {
+	width: 100%;
+}
+
+th {
+	width:50%; 
+	text-align:center; 
+	border-style: none none solid none; 
+	border-width: 1px; 
+	border-color: #01aae7;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+td.main {
+	 vertical-align: top; 
+	 padding: 7px;
+}
+
+td.left {
+	width:20%;
+	vertical-align:top; 
+	border-style: none none dashed none; 
+	border-width: 1px; 
+	border-color: #e8e8e8;
+}
+
+td.right {
+	width:80%;
+	vertical-align:top; 
+	border-style: none none dashed none; 
+	border-width: 1px; 
+	border-color: #e8e8e8;
+}
 
 
 
