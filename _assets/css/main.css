@@ -742,6 +742,7 @@ blockquote {
 
 }
 .logolist.small li {
+	margin-left: 50px;
 	width: 180px;
 }
 
@@ -798,7 +799,7 @@ td.left {
 	vertical-align:top; 
 	border-style: none none dashed none; 
 	border-width: 1px; 
-	border-color: #e8e8e8;
+	border-color: #c1c1c1;
 }
 
 td.right {
@@ -806,7 +807,7 @@ td.right {
 	vertical-align:top; 
 	border-style: none none dashed none; 
 	border-width: 1px; 
-	border-color: #e8e8e8;
+	border-color: #c1c1c1;
 }
 
 
