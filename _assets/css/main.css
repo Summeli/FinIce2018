@@ -810,26 +810,43 @@ td.right {
 	border-color: #c1c1c1;
 }
 
+table.registered {
+	width: 75%;
+	margin-left:auto; 
+    margin-right:auto;
+	background:rgb(46, 51, 58, .5);
+}
+table.registered td {
+	padding: 0px 0px 0px 15px;
+	text-align:left; 
+}
+table.registered th {
+	padding: 0px;
+	text-align:center;
+	border-style: none none solid none; 
+	border-width: 1px; 
+	border-color: #01aae780;
+}
+
+table.registered th.regLeft {
+	border-style: none none solid solid; 
+	border-width: 1px; 
+	border-color: #01aae780;	
+}
+
+table.registered td:hover {
+	background-color: rgb(46, 51, 58);
+}
 
 
+td.regLeft {
+	border-style: none none solid none; 	
+	border-width: 1px;
+	border-color: rgb(126, 127, 130, 0.25);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+td.regRight {
+	border-style: none solid solid none; 
+	border-width: 1px; 
+	border-color: #01aae7 #01aae780 rgb(126, 127, 130, 0.25) #01aae7;
+}
