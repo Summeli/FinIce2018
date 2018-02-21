@@ -828,8 +828,8 @@ td.full {
 table.registered {
 	width: 75%;
 	margin-left:auto; 
-    margin-right:auto;
-	background:rgb(46, 51, 58, .5);
+        margin-right:auto;
+	background:#2e333a80
 }
 table.registered td {
 	padding: 0px 0px 0px 15px;
