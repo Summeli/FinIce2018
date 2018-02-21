@@ -854,14 +854,14 @@ table.registered td:hover {
 }
 
 
-td.regLeft {
+table.registered td.regLeft {
 	border-style: none none solid none; 	
 	border-width: 1px;
-	border-color: rgb(126, 127, 130, 0.25);
+	border-color: #7e7f8240;
 }
 
-td.regRight {
+table.registered td.regRight {
 	border-style: none solid solid none; 
 	border-width: 1px; 
-	border-color: #01aae7 #01aae780 rgb(126, 127, 130, 0.25) #01aae7;
+	border-color: #01aae7 #01aae780 #7e7f8240 #01aae7;
 }
