@@ -810,6 +810,21 @@ td.right {
 	border-color: #c1c1c1;
 }
 
+table.full 
+{
+	border-collapse: separate !important;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+td.full {
+	border-style: none; 
+	border-width: 1px; 
+	border-color: #01aae7;
+	border-radius: 10px;
+	border-collapse: none;
+}
+
 table.registered {
 	width: 75%;
 	margin-left:auto; 
